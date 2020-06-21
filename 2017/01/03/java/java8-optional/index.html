@@ -91,13 +91,11 @@
 <meta property="og:url" content="http://yoursite.com/2017/01/03/java/java8-optional/index.html">
 <meta property="og:site_name" content="可可制药">
 <meta property="og:description" content="在上一篇介绍Stream流式数据处理的文章中提到了Optional类，这是Java 8新增的一个类，用以解决程序中常见的NullPointerException异常问题。本篇文章将详细介绍Optional类，以及如何用它消除代码中的null检查。">
-<meta property="og:image" content="https://raw.githubusercontent.com/lw900925/blog-asset/master/images/banner/java8-logo.jpeg">
 <meta property="article:published_time" content="2017-01-02T16:00:00.000Z">
-<meta property="article:modified_time" content="2019-04-22T02:07:52.000Z">
+<meta property="article:modified_time" content="2020-06-21T09:50:53.030Z">
 <meta property="article:author" content="魏泽抗">
 <meta property="article:tag" content="java8">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/lw900925/blog-asset/master/images/banner/java8-logo.jpeg">
 
 
 
@@ -397,9 +395,7 @@
       
 
       
-        <img src="https://raw.githubusercontent.com/lw900925/blog-asset/master/images/banner/java8-logo.jpeg">
-
-<p>在上一篇介绍Stream流式数据处理的文章中提到了<code>Optional</code>类，这是Java 8新增的一个类，用以解决程序中常见的<code>NullPointerException</code>异常问题。本篇文章将详细介绍<code>Optional</code>类，以及如何用它消除代码中的<code>null</code>检查。</p>
+        <p>在上一篇介绍Stream流式数据处理的文章中提到了<code>Optional</code>类，这是Java 8新增的一个类，用以解决程序中常见的<code>NullPointerException</code>异常问题。本篇文章将详细介绍<code>Optional</code>类，以及如何用它消除代码中的<code>null</code>检查。</p>
 <a id="more"></a>
 
 <h2 id="避免使用null检查"><a href="#避免使用null检查" class="headerlink" title="避免使用null检查"></a>避免使用<code>null</code>检查</h2><p>作为Java开发人员，几乎所有人都遇到过<code>NullPointerException</code>异常，大多数人遇到<code>NullPointerException</code>异常时都会在异常出现的地方加上<code>if</code>代码块来判断值不为空，比如下面的代码：</p>
